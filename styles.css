@@ -14,12 +14,30 @@ h1 {
     border: 2px solid black;
 }
 
-li {
-    list-style: none;
+.recipe-list {
+    display: block;
 }
 
-li .button {
-    margin: -40px;
+.recipe-link {
+    text-decoration: none;
+}
+
+.recipe-name {
+    text-align: center;
+    color: black;
+    font-weight: 700;
+}
+
+.recipe {
+    display: inline-block;
+    background: aquamarine;
+    width: 225px;
+    padding: 0px 10px 10px 10px;
+    border: 2px solid black;
+}
+
+.recipe-picture {
+    width: 100%;
 }
 
 .button{
