@@ -16,6 +16,7 @@ h1 {
 
 .recipe-list {
     display: block;
+    text-align: center;
 }
 
 .recipe-link {
@@ -30,10 +31,15 @@ h1 {
 
 .recipe {
     display: inline-block;
-    background: aquamarine;
+    background-color: aquamarine;
     width: 225px;
     padding: 0px 10px 10px 10px;
     border: 2px solid black;
+}
+
+.button:hover,
+.recipe:hover {
+    background-color: rgb(203, 246, 231);
 }
 
 .recipe-picture {
